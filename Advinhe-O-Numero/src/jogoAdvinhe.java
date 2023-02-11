@@ -23,5 +23,9 @@ public class jogoAdvinhe {
             else if (tentativa > numeroParaAdivinhar)
                 System.out.println("Poxa, o número que eu quero é menor");
         }
+        if (tentativa == numeroParaAdivinhar)
+            System.out.println("Parabens, você acertou o número em " + numeroDeTentativas + " tentativas.");
+        else
+            System.out.println("Infelizmente você não conseguiu, o número era: " + numeroParaAdivinhar);
     }
 }
